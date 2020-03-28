@@ -1,3 +1,11 @@
 .bg-deg {
     background: linear-gradient(90deg, rgba(181,226,241,1) 5%, rgba(0,212,255,1) 79%, rgba(3,169,244,1) 100%);
 }
+
+#devs .card{
+    width: 300px;
+}
+
+.icon-github{
+    width: 20px;
+}
