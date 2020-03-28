@@ -11,6 +11,9 @@ fetch("http://localhost:8000/api/devs", {
     "Access-Control-Allow-Origin": "*"
   },
   cors: true
-}).then((response) => {
-  console.log(response.json());
+})
+.then(response => response.json())
+.then(data => { 
+  // recebo informação em array e posso exibir no console ou html
+  console.log(data); 
 });
